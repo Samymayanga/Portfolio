@@ -499,7 +499,10 @@
           margin: 0 auto;
         }
         .photo-frame {
-          min-height: 300px;
+          width: min(180px, 44vw);
+          height: min(180px, 44vw);
+          min-width: auto;
+          min-height: auto;
         }
       }
       .btn {
@@ -1089,18 +1092,18 @@
                 I'm a Computer Science student at Victoria University
                 (graduating 2027) with a builder's instinct I'd rather ship a
                 working prototype than admire a perfect plan. My foundation is
-                in JavaScript across the stack:
+                in core <b>JavaScript</b>,
                 <b>Node.js, Express, React and Next.js</b>, with
                 <b>TypeScript</b> and <b>Python</b> as my default for anything
                 that needs to last.
               </p>
               <p>
                 Outside the core stack I'm sharpening
-                <b>React Native</b> for mobile work, and currently working
-                through a <b>Cisco networking</b> course to round out my systems
-                fundamentals. I also bring a design eye from freelance work
-                Photoshop and Illustrator are second nature, so the products I
-                build tend to look as good as they work.
+                <b>React Native</b> for mobile work, <b>C programming</b> and
+                currently working through a <b>Basic networking</b> course to
+                round out my systems fundamentals. I also bring a design eye
+                from freelance work Photoshop and Illustrator are second nature,
+                so the products I build tend to look as good as they work.
               </p>
             </div>
             <div>
@@ -1170,7 +1173,8 @@
               <h5>Leveling Up</h5>
               <div class="tag-row">
                 <span class="tag">React Native</span>
-                <span class="tag">Cisco Networking</span>
+                <span class="tag">Basic Networking</span>
+                <span class="tag">C Programming</span>
               </div>
             </div>
             <div class="skill-card">
@@ -1245,12 +1249,13 @@
                 <div class="tag-row">
                   <span class="tag">React</span><span class="tag">Node.js</span
                   ><span class="tag">Express</span>
+                  <span class="tag">MongoDB</span>
                 </div>
               </div>
 
               <div class="status">
                 In progress<br /><a href="#" style="color: var(--blue)"
-                  >View demo →</a
+                  >Live view</a
                 >
               </div>
             </div>
@@ -1258,13 +1263,15 @@
             <div class="proj" data-cat="cv">
               <span class="badge cv">ON CV</span>
               <div>
-                <h4>E-Commerce Backend API</h4>
+                <h4>Shop Management System</h4>
                 <p>
-                  A RESTful API built with Node.js, Express and MongoDB —
-                  handles authentication, product management and shopping cart
-                  logic. The backbone for a full storefront.
+                  A system for managing inventory, sales and customers for a
+                  small and medium-sized business, built with Node.js, Express
+                  and MongoDB with JWT-based authentication and role-based
+                  access control.
                 </p>
                 <div class="tag-row">
+                  <span class="tag">TypeScript</span>
                   <span class="tag">Node.js</span
                   ><span class="tag">Express</span
                   ><span class="tag">MongoDB</span
@@ -1272,28 +1279,49 @@
                 </div>
               </div>
               <div class="links" style="align-self: start">
-                <a href="#">↗ Live</a><a href="#">⌥ Code</a>
+                <a href="#">Live view</a>
               </div>
             </div>
 
             <div class="proj" data-cat="cv">
               <span class="badge cv">ON CV</span>
               <div>
-                <h4>Personal Portfolio (v1)</h4>
+                <h4>AI Chatbot</h4>
                 <p>
-                  An earlier portfolio built in React.js to showcase projects
-                  and skills — a first real exercise in component-based
-                  architecture and modern CSS, since iterated into the site
-                  you're looking at now.
+                  An AI-powered chatbot designed to assist users with common
+                  queries and provide information about a specific domain. Built
+                  with React.js and integrated with a natural language
+                  processing API.
                 </p>
                 <div class="tag-row">
                   <span class="tag">React.js</span
-                  ><span class="tag">Component Architecture</span
-                  ><span class="tag">CSS</span>
+                  ><span class="tag">Gemini API</span
+                  ><span class="tag">Tailwind css</span>
+                  <span class="tag">MongoDB</span>
                 </div>
               </div>
               <div class="links" style="align-self: start">
-                <a href="#">⌥ Code</a>
+                <a href="#">Live view</a>
+              </div>
+            </div>
+
+            <div class="proj" data-cat="cv">
+              <span class="badge cv">ON CV</span>
+              <div>
+                <h4>DocAssistant</h4>
+                <p>
+                  An AI-powered tool for assisting with document analysis,
+                  extracting key points, and generating summaries.
+                </p>
+                <div class="tag-row">
+                  <span class="tag">React.js</span>
+                  <span class="tag">Llama API</span>
+
+                  <span class="tag">Tailwind css</span>
+                </div>
+              </div>
+              <div class="links" style="align-self: start">
+                <a href="#">Live view</a>
               </div>
             </div>
 
@@ -1322,18 +1350,23 @@
             <div class="proj" data-cat="extra">
               <span class="badge extra">SIDE PROJECT</span>
               <div>
-                <h4>Add your next build here</h4>
+                <h4>Much more other projects</h4>
                 <p>
-                  This slot is reserved for something you've shipped that isn't
-                  on the CV yet — an experiment, an open-source contribution, a
-                  weekend hack. Swap this copy for the real thing.
+                  A collection of other projects I've built for fun or to
+                  explore new technologies, including small web apps and
+                  experiments with different frameworks and libraries.
                 </p>
                 <div class="tag-row">
-                  <span class="tag">Your stack</span>
+                  <span class="tag">TypeScript</span>
+                  <span class="tag">React</span>
+                  <span class="tag">Node.js</span>
+                  <span class="tag">Python</span>
+                  <span class="tag">Next.js</span>
+                  <span class="tag">PostgreSQL</span>
+                  <span class="tag">Wordpress</span>
+                  <span class="tag">MongoDB</span>
+                  <span class="tag">Core JavaScript</span>
                 </div>
-              </div>
-              <div class="links" style="align-self: start">
-                <a href="#">⌥ Code</a>
               </div>
             </div>
           </div>
